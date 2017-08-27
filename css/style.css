@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", serif;
+  font-size: 20px;
+}
+
+div.header {
+  margin-top: 75px;
+  text-align: center;
+}
+div.header > h3 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+p.icons a {
+  color: #26a69a;
+  font-size: 40px;
+}
+p.icons a:hover {
+  color: #80cbc4;
+}
+p.icons a:active,
+p.icons a:visited {
+  color: #009688;
+}
+.row.cards {
+  margin-bottom: 50px;
+}
+.row.cards > div {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+
+.card {
+  height: 500px;
+  margin: 50px auto;
+  min-width: 1px;
+  max-width: 500px;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  background-color: #26a69a;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+.card-title h4,
+.card-title h5 {
+  margin: 5px auto;
+}
+
+#nvf-img-container {
+  width: 100%;
+  height: 100%;
+}
+#nvf-img-container > img {
+  margin: 15% auto;
+}
+
+@media screen and (max-width: 900px) {
+  .row.cards > div {
+    width: 100%;
+  }
+}
