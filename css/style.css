@@ -19,10 +19,6 @@ p.icons a {
 p.icons a:hover {
   color: #80cbc4;
 }
-p.icons a:active,
-p.icons a:visited {
-  color: #009688;
-}
 .row.cards > div {
   vertical-align: top;
   display: inline-block;
