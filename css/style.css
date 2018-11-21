@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", serif;
   font-size: 20px;
+  color: #444;
 }
 
 div.header {
@@ -13,11 +14,11 @@ div.header > h3 {
 }
 
 p.icons a {
-  color: #26a69a;
+  color: #444;
   font-size: 40px;
 }
 p.icons a:hover {
-  color: #80cbc4;
+  color: #666;
 }
 .row.cards > div {
   vertical-align: top;
