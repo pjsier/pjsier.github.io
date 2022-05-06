@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>{{site.title}}</title>
     <meta name="description" content="Pat Sier's personal website" />
@@ -13,19 +13,13 @@
     <style>
       {% include style.css %}
     </style>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80755093-1"></script>
-    <script>
-      if (!(navigator.doNotTrack === "1" || window.doNotTrack == "1")) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag() { dataLayer.push(arguments); }
-          gtag('js', new Date());
-          gtag('config', 'UA-80755093-1', { 'anonymize_ip': true });
-      }
-    </script>
+    <script
+      defer
+      data-domain="patsier.com"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
   </head>
   <body>
-    <main>
-      {{ content }}
-    </main>
+    <main>{{ content }}</main>
   </body>
 </html>
